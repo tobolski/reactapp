@@ -1,11 +1,5 @@
-/**
- * /src/entry.js
- */
-
-//console.log('We are live!');
-
 const React = require('react');
 const ReactDOM = require('react-dom');
-const App = require('./components/App.jsx');
+const Root = require('./containers/Root.jsx');
 
-ReactDOM.render(<App />, document.getElementById('app'));
+ReactDOM.render(<Root />, document.getElementById('app'));

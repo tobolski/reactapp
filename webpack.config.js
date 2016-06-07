@@ -48,6 +48,6 @@ module.exports = {
       test: /\.jsx?$/,
       loaders: ['react-hot', 'babel'],
       exclude: /node_modules/,
-    }]
+  }]
   }
 };
